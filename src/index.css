@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.chatbgcolor {
+
+    background: linear-gradient(90deg, #103570 0%, #004fce 100%);
+    background: -webkit-linear-gradient(90deg, rgba(16, 53, 112, 1) 0%, rgba(0, 79, 206, 1) 100%);
+    background: -moz-linear-gradient(90deg, rgba(16, 53, 112, 1) 0%, rgba(0, 79, 206, 1) 100%);
+    background: -o-linear-gradient(90deg, rgba(16, 53, 112, 1) 0%, rgba(0, 79, 206, 1) 100%);
+    background: -ms-linear-gradient(90deg, rgba(16, 53, 112, 1) 0%, rgba(0, 79, 206, 1) 100%);
+    background: linear-gradient(to right bottom, #103570, #005fce);
+}
+
+
+body {
+    background-image: url('/bg.png');
+   
+    background-size: cover;
+ 
+    background-attachment: fixed;
+    
+    background-position: center;
+    
+}
+
+
+.bg-liner {
+    background: #FF6FB9;
+    background: linear-gradient(90deg, rgba(255, 111, 185, 0.55) 0%, rgba(134, 171, 250, 1) 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 655px;
+    height: 655px;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.06;
+}
+
+.banner-liner {
+    background: linear-gradient(90deg, rgba(255, 111, 185, 0.55) 0%, rgba(103, 151, 255, 1) 100%);
+    position: absolute; 
+    left: 6%; 
+    transform: translate(-50%, -50%); 
+    width: 600px; 
+    height: 500px; 
+    z-index: -1; 
+    pointer-events: none; 
+    opacity: 0.05;
+}
+
+
+.fotter-liner {
+    background: linear-gradient(90deg, rgba(255, 111, 185, 0.55) 0%, rgba(103, 151, 255, 1) 100%);
+    position: absolute; 
+    left:9%; 
+    transform: translate(-50%, -50%); 
+    width: 500px; 
+    height: 430px; 
+    z-index: -1; 
+    pointer-events: none; 
+    opacity: 0.07;
+}
